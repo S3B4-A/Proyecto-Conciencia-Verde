@@ -1,2 +1,2 @@
-# BlogPruebaCurso
-Curso de Git y GitHub
+# Blog en Progreso
+
