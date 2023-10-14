@@ -5,13 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="estilos.css">
+    <!-- versión de desarrollo, incluye advertencias de ayuda en la consola -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <!-- versión de producción, optimizada para tamaño y velocidad -->
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+
 </head>
 <body>
 
-    <div class="contenedor">
+    <div id="app">
+       {{message}}
+      </div>
 
-      <div>Acerca</div><div>Poyects</div><div>Contact</div>
+<!--       
+    <div id="app-3">
+        <span v-if="seen">Ahora me ves</span>
+      </div> -->
 
+
+
+      <script src="index.js"></script>
 </body>
 
 
