@@ -1,0 +1,19 @@
+.contenedor{
+display: flex;
+height: 300px;
+justify-content: space-around;
+align-items: baseline;
+flex-direction: inherit;
+background-color: blueviolet;
+margin: auto;
+}
+
+.contenedor > div {
+    background-color: aqua;
+    width: 100px;
+    
+    text-align: center;
+    line-height: ;
+}
+
+
